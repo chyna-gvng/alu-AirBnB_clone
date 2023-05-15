@@ -1,2 +1,2 @@
-# alu-AirBnB_clone
-HBnB The Console
+# HBnB: The Console
+![HBNB](/img/hbnb_logo.png)
