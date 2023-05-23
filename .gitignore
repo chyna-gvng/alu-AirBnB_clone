@@ -1,2 +1,4 @@
 /push_to_github.sh
 /__pycache__
+/models/__pycache__
+/models/engine/__pycache__
