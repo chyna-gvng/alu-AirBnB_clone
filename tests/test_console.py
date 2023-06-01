@@ -40,7 +40,7 @@ class TestHBNBCommand_help(unittest.TestCase):
         Unittests to test help messages of the HBNB command interpreter.
     """
 
-    def test_help_quit(self):
+    def test_quit(self):
         h = "Quit command to exit the program."
         with patch("sys.stdout", new=StringIO()) as output:
             self.assertFalse(HBNBCommand().onecmd("help quit"))
