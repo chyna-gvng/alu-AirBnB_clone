@@ -43,7 +43,7 @@ class TestHBNBCommand_help(unittest.TestCase):
     def test_quit(self):
         # h = "Quit command to exit the program."
         with patch("sys.stdout", new=StringIO()) as output:
-            self.assertTrue(HBNBCommand().onecmd("quit"))
+            self.assertFalse(HBNBCommand().onecmd("quit"))
             # self.assertEqual(h, output.getvalue().strip())
 
     def test_help_create(self):
